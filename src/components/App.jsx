@@ -1,5 +1,15 @@
 import React from 'react';
+import { CssBaseline } from '@mui/material';
 
-const App = () => <div>App</div>;
+import { Actors, MovieInformation, Movies, NavBar, Profile } from './';
+
+const App = () => (
+	<div>
+		<CssBaseline />
+		<main>
+			<h1>Hello Filmpire</h1>
+		</main>
+	</div>
+);
 
 export default App;
